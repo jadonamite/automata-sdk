@@ -1,6 +1,6 @@
 {
   "name": "@jadonamite/automata-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official API client SDK for the Automata cross-chain AI agent platform. Chat, bridge, swap, and track transactions across Base, Celo, Ethereum, and Stellar.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
