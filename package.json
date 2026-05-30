@@ -1,0 +1,55 @@
+{
+  "name": "@jadonamite/automata-sdk",
+  "version": "1.0.0",
+  "description": "Official API client SDK for the Automata cross-chain AI agent platform. Chat, bridge, swap, and track transactions across Base, Celo, Ethereum, and Stellar.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "automata",
+    "cross-chain",
+    "defi",
+    "bridge",
+    "swap",
+    "stellar",
+    "base",
+    "celo",
+    "ethereum",
+    "usdc",
+    "cctp",
+    "ai-agent",
+    "web3",
+    "sdk"
+  ],
+  "author": {
+    "name": "jadonamite",
+    "url": "https://github.com/jadonamite",
+    "email": "jadonamite@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadonamite/automata-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jadonamite/automata-sdk/issues"
+  },
+  "homepage": "https://github.com/jadonamite/automata-sdk#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
